@@ -1,0 +1,29 @@
+.conatiner{
+    display:flex;
+    height:1000px;
+    width:1000px;
+    border:2px dashed black;
+    background-color: cyan;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+.item{
+    height:100px;
+    width:200px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    text-align:center;
+    flex-grow: 1;
+    flex-grow: 2;
+    flex-shrink: 3;
+
+
+
+}
+
+.item2{
+    order: -1;
+}
