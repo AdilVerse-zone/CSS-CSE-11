@@ -1,0 +1,33 @@
+.content{
+    background-color: aqua;
+    display: flex;
+    justify-content:space-evenly;
+
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(228, 30, 30);
+  
+
+}
+li{
+    list-style-type: none;
+    display: inline;
+      /* background-color: blueviolet; */
+     
+}
+
+.outter{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    background-color: blanchedalmond;
+}
