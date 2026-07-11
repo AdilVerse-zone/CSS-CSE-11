@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid red;
+      transition-property: all;
+   transition-duration: 2s;
+}
+
+@media (width : 600px){
+    div{
+        background-color: brown; 
+    }
+}
+@media (min-width:600px){
+    div{
+        background-color: green;
+    }
+    
+}
+div:hover{
+   background-color: red;
+   color: white;
+   font-size: 20px;
+ 
+   
+}
+div:active{
+    background-color: pink;
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+} 
